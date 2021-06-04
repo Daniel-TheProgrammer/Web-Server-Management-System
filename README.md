@@ -1,4 +1,6 @@
 # Web-Server-Management-System
+This is a Java Project Given by Our Lecturer in FET-300
+
 The features or functions of this project can be outlined as follows. I’ve only introduced the first three of these here; detailed description of the rest can be found in the project report.
 
 Server Information
@@ -9,6 +11,7 @@ Payment Details
 Sales Information
 Product Delivery Information
 URL Renewal Details
+
 Reports
 Server Information: Selecting the Server Information page routes to the Dnr which consists of general information and evaluation. After that, the person has to enter the details about scode,  sname,  stype,  ssize and samt. If the scode already exists, error message is displayed on the screen. If it does not, then the values are inserted into the Dnr Table. The inserted values are displayed on the screen.
 
@@ -31,19 +34,8 @@ It is always a wise thing to perform the feasibility study of a project. Months 
 Technical Feasibility: It is the need of hardware and software which are needed to implement the proposed system in the organization. Like in all project-proposals, the technical requirements are to be fulfilled to make the proposed system work. This should be necessarily predetermined so as to make the system more competent.
 Economical Feasibility: Under this, the project must satisfy the needs of the technical feasibility and the operational feasibility. It involves the economic feasibility of developing and implementing the proposed system.
 Operational Feasibility: The proposed system uses internet by which different types of end users are involved in the system; it solves the users’ needs and the company’s needs. Also, it supports the all user environments.
+
 System Specifications:
-1. Hardware Requirements:
-
-Processor: celeron
-Speed: 667 MHz
-Hard Disk: 4 GB
-RAM: 64 MB
-Display Card: Super Video Adapter(SVGA)
-Keyboard: Standard 102 Enhanced Keyboard
-Mouse: Logitech Serial Mouse
-2. Software Requirements:
-
-Operating  System: Windows 98/2000/XP
 Web  Server: Apache Tomcat 4.1.7
 Web Browser: Internet Explorer
 Front End Tool: HTML
