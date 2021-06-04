@@ -36,11 +36,6 @@ Economical Feasibility: Under this, the project must satisfy the needs of the te
 Operational Feasibility: The proposed system uses internet by which different types of end users are involved in the system; it solves the users’ needs and the company’s needs. Also, it supports the all user environments.
 
 System Specifications:
-<<<<<<< HEAD
-=======
-
-Operating  System: Windows 98/2000/XP
->>>>>>> a532fcf39bc5c7512c432af87f6280030eae9e07
 Web  Server: Apache Tomcat 4.1.7
 Web Browser: Internet Explorer
 Front End Tool: HTML
