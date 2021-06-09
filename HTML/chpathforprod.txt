@@ -1,8 +1,8 @@
 <html>
 <body>
-<a href="http://localhost:7000/server1.html">To Order</a>
+<a href="./server1.html">To Order</a>
 <br>
-<a href="http://localhost:7000/onoforspace.jsp">To payment</a>
+<a href="./onoforspace.html">To payment</a>
 </body>
 </html>
 

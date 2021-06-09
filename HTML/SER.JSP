@@ -47,12 +47,12 @@ try
         } 
 	else
 	{
-        	response.sendRedirect("http://localhost:7000/examples/krishtml/server1.html");  
+        	response.sendRedirect(./server1.html);  
 	}
 }
 catch(SQLException ee){}
 %>
-<a href="pay.jsp"></a>
+<a href="./PAY.JSP"></a>
 </table>
 </body>
 </html>
