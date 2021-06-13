@@ -43,7 +43,7 @@ try
 	int i=p.executeUpdate();
         if(i>0)
         {
-                response.sendRedirect("http://localhost:7000/examples/krishna/URL1.jsp");      
+                response.sendRedirect("./URL1.jsp");      
         } 
 	else
 	{

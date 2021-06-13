@@ -45,7 +45,7 @@ if(rs.next())
 }
 else
 {
-    response.sendRedirect("http://localhost:7000/examples/krishna/failedlogin.html");      
+    response.sendRedirect("./failedlogin.html");      
 }   
 }catch(SQLException e){out.println(e);}
 %>
