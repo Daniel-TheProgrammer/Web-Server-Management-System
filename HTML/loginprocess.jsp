@@ -1,4 +1,4 @@
-Here i will implement the LOgin Java Process
+<!--Here i will implement the Login Java Process-->
 <%@ page language="java" import="java.sql.*"%>
 <html>
 <body>
@@ -41,7 +41,7 @@ ResultSet rs=ps.executeQuery();
 if(rs.next())
 {
    //out.println(b);
-    response.sendRedirect("http://localhost:7000/examples/krishna/choosePath.jsp");      
+    response.sendRedirect("./choosePath.jsp");      
 }
 else
 {
