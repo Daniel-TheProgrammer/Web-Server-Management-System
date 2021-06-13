@@ -3,7 +3,7 @@
 <title></title>
 </head>
 <body bgcolor="#ffffd">
-<form name="f1" method="post" action="http:\\localhost:8080\examples\jsp\krishna\ser.jsp">
+<form name="f1" method="post" action="http:\\localhost:7000\examples\jsp\krishna\ser.jsp">
 <h1>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <font face="Book Antiqua" size="4">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <u>SERVER INFORMATION </u></font></h1>

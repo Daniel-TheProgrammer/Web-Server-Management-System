@@ -1,4 +1,3 @@
-<!--Here you will Put The URL Request-->
 <html>
 <head>
 <meta http-equiv="Content-Language" content="en-us">
@@ -8,18 +7,22 @@
 <title>New Page 4</title>
 <base target="verify">
 </head>
-
 <script language="vbs">
 sub S_onclick()
 'msgbox "clicked"
 end sub
 </script>
-<form method="post" action="http:\\localhost:8080\examples\jsp\krishna\url.jsp">
+<form method="post" action="http:\\localhost:7000\examples\krishna\url.jsp">
 
 <body bgcolor="#FFFFDE">
 <p align="center"><br>
 <br>
 <br>
+  
+ <%String cs=(String)session.getAttribute("ccode");
+ String ss=(String)session.getAttribute("scode");
+ %>
+   
 <u><font size="4">URL MEMORY ALLOCATION</font> </u></p>
 <p align="center">&nbsp;</p>
 <div align="center"><div align="center"><center>
@@ -28,12 +31,12 @@ end sub
   <tr>
     <td width="50%" valign="bottom"><font face="Arial" size="3" color="#800080"><strong>Customer
     Code</strong></font></td>
-    <td width="50%"><input type="text" name="T1" size="20"></td>
+    <td width="50%"><input type="text" name="T1" value=<%=cs%> size="20"></td>
   </tr>
   <tr>
     <td width="50%" valign="bottom"><font face="Arial" size="3" color="#800080"><strong>Server
     Code</strong></font></td>
-    <td width="50%"><input type="text" name="T2" size="20"></td>
+    <td width="50%"><input type="text" name="T2" value=<%=ss%> size="20"></td>
   </tr>
   <tr>
     <td width="50%"><font face="Arial" size="3" color="#800080"><strong>Requirement Size</strong></font></td>
@@ -47,12 +50,9 @@ end sub
   </tr>
   <tr>
     <td width="50%"><font face="Arial" size="3" color="#800080"><strong>Duration</strong></font></td>
-    <td width="50%"><input type="text" name="T3" size="20"> &nbsp; </td>
+    <td width="50%"><input type="text" name="T3" size="20">(in years) &nbsp; </td>
   </tr>
-  <tr>
-    <td width="50%"><font face="Arial" size="3" color="#800080"><strong>Date of Booking</strong></font></td>
-    <td width="50%"><input type="text" name="T4" size="20"></td>
-  </tr>
+  
 </table>
 </center></div>
 

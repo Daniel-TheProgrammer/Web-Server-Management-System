@@ -1,4 +1,3 @@
-<!--Here i will implement the Login Java Process-->
 <%@ page language="java" import="java.sql.*"%>
 <html>
 <body>
@@ -41,14 +40,13 @@ ResultSet rs=ps.executeQuery();
 if(rs.next())
 {
    //out.println(b);
-    response.sendRedirect("./choosePath.jsp");      
+    response.sendRedirect("http://localhost:7000/examples/krishna/choosePath.jsp");      
 }
 else
 {
-    response.sendRedirect("./failedlogin.html");      
+    response.sendRedirect("http://localhost:7000/examples/krishna/failedlogin.html");      
 }   
 }catch(SQLException e){out.println(e);}
 %>
 </body>
 </html>
-<!--Next i will Work on the Failed Login Of Customer-->
