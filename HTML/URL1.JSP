@@ -1,18 +1,20 @@
+<!--Created By Daniel TheProgrammer-->
 <html>
 <head>
 <meta http-equiv="Content-Language" content="en-us">
 <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <meta name="GENERATOR" content="Microsoft FrontPage 4.0">
 <meta name="ProgId" content="FrontPage.Editor.Document">
-<title>New Page 4</title>
+<title>Page 4</title>
 <base target="verify">
 </head>
-<script language="vbs">
-sub S_onclick()
-'msgbox "clicked"
-end sub
+
+ <script language="vbs">
+    sub S_onclick()
+    'msgbox "clicked"
+    end sub
 </script>
-<form method="post" action="http:\\localhost:7000\examples\krishna\url.jsp">
+<form method="post" action="./URL.JSP">
 
 <body bgcolor="#FFFFDE">
 <p align="center"><br>

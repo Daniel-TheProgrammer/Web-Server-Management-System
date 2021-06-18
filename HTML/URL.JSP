@@ -122,10 +122,10 @@ try
 	       out.println("success");
 	     else
 	       out.println("failed");
-             response.sendRedirect("http://localhost:7000/examples/krishna/paym.jsp");      
+             response.sendRedirect("./paym.jsp");      
 	} 
 	else
-	     response.sendRedirect("http://localhost:7000/examples/krishtml/URL1.html");  
+	     response.sendRedirect("./URL1.html");  
 
 }
 catch(SQLException ee)
